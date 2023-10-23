@@ -6,4 +6,4 @@ class Car:
         self.max_speed = max_speed
 
 new_car = Car ("ABC-123 ", 142)
-print(f"{new_car.register_number}{new_car.max_speed}")
+print(f" Tä auton rekisteritunnus on: {new_car.register_number}\n Huippunopeus on: {new_car.max_speed}km/h.")
