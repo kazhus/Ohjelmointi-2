@@ -27,7 +27,7 @@ class Car:
 
     def accelerate(self, speed_change):
         if speed_change < 0:
-            self.current_speed = max(0, self.current_speed + speed_change)
+            self.current_speed = max(self.current_speed + speed_change)
         else:
             self.current_speed = min(self.max_speed, self.current_speed + speed_change)
 

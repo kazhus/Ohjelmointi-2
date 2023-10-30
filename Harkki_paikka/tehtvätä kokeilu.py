@@ -50,5 +50,3 @@ new_car.accelerate()
         else:
             print("Emergency speed")
 """
-
-
