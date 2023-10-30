@@ -12,4 +12,4 @@ class Car:
             self.current_speed = min(self.current_speed + speed_change)
 
 new_car = Car ("ABC-123 ", 142)
-print(f"Tää autoon rekisterinumero on:{new_car.register_number}","\nAuton nopeus on:",{new_car.max_speed})
+print(f"Tää autoon rekisterinumero on: {new_car.register_number} \nHuippunopeus on: {new_car.max_speed} km/h.")
