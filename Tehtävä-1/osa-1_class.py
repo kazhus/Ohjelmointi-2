@@ -70,6 +70,5 @@ def main():
                 print("Travelled distance:", car.travelled_distance, "km")
                 return
         hours += 1
-
 if __name__ == "__main__":
     main()
