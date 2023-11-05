@@ -8,5 +8,5 @@ data = response.json()
 
 temperature = data["main"]["temp"] -100
 description = data["weather"][0]["description"]
-print(f" The temprature of {city} is {temperature} Celisus and"
+print(f" The temperature of {city} is {temperature} Celisus and"
       f"the weather is {description}.")
