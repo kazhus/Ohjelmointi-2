@@ -1,5 +1,7 @@
 
-import requests
+
+
+"""import requests
 
 api_key = "YOUR_API_KEY_HERE"
 city = input("Enter city name: ")
@@ -12,17 +14,17 @@ temperature = data["main"]["temp"] - 273.15
 description = data["weather"][0]["description"]
 
 print(f"The temperature in {city} is {temperature:.1f}°C and the weather is {description}.")
-"""import requests
+import requests
 
 response = requests.get("https://api.chucknorris.io/jokes/random")
 data = response.json()
 
 print(data["value"])
 """
+"""
 
 
-
-"""import requests
+import requests
 
 print(requests.get("https://www.metropolia.fi"))
 
